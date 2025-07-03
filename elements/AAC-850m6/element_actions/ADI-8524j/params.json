@@ -1,0 +1,32 @@
+{
+    "caption": "Add YouTube",
+    "fields": {
+        "ADJ": {
+            "caption": "url",
+            "default_val": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "doc": "The YouTube url of the video",
+            "editor": "DynamicValue",
+            "name": "url",
+            "rank": 0,
+            "value": "text"
+        },
+        "ADK": {
+            "caption": "width",
+            "default_val": 320,
+            "doc": "If you set the width at 100% on the Tiptap element on the editor, this will serve as min width.",
+            "editor": "DynamicValue",
+            "name": "width",
+            "rank": 1,
+            "value": "number"
+        },
+        "ADL": {
+            "caption": "height",
+            "default_val": 240,
+            "doc": "If you set the width at 100% on the Tiptap element on the editor, this will serve as min height.",
+            "editor": "DynamicValue",
+            "name": "height",
+            "rank": 2,
+            "value": "number"
+        }
+    }
+}

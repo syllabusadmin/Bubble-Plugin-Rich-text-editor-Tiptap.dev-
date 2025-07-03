@@ -1,0 +1,32 @@
+{
+    "caption": "Set content",
+    "fields": {
+        "ACX": {
+            "caption": "Content",
+            "doc": "Content to display in the editor. Can be HTML, plain text.",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "content",
+            "rank": 0,
+            "value": "text"
+        },
+        "ACY": {
+            "caption": "Is JSON?",
+            "default_val": false,
+            "editor": "DynamicValue",
+            "name": "is_json",
+            "optional": true,
+            "rank": 1,
+            "value": "boolean"
+        },
+        "AFH": {
+            "caption": "preserveWhitespace",
+            "default_val": "'full'",
+            "doc": "By default, whitespace is collapsed as per HTML's rules. Pass true to preserve whitespace, but normalize newlines to spaces, and 'full' to preserve whitespace entirely.",
+            "editor": "Dropdown",
+            "name": "parseOptions_preserveWhitespace",
+            "options": "true,false,'full'",
+            "rank": 2
+        }
+    }
+}
